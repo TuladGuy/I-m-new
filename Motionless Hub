@@ -1,0 +1,160 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Motionless Hub Beta v1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+OrionLib:MakeNotification({
+	Name = "Motionless Hub Loaded..",
+	Content = "Enjoy",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Blade Ball",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Bleachhack",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/devdoroz/bleachhack/main/newloader.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "ln hub v2",
+	Callback = function()
+      		--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet('https://raw.githubusercontent.com/No6No6No7yt/Lumin-Hub/main/BladeV2.lua'))(); 
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "mm2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "XhubMM2",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "R3THPRIV",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Aimbot script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "PawsThePaw Aimbot",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Neutron.lua/main/MainNeutron.lua"))()
+  	end    
+})
+Tab:AddLabel("PawsThePaw Aimbot is For Mobile/Pc")
+local Tab = Window:MakeTab({
+	Name = "Rivals Silent aim",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Silent Motion",
+	Callback = function()
+      		local Players = game:GetService("Players")
+local localPlayer = Players.LocalPlayer 
+local camera = workspace.CurrentCamera 
+local mouse = localPlayer:GetMouse() 
+local wtvp = camera.WorldToViewportPoint
+             
+local function getClosestPlayerHead()
+    local target
+    local distance = math.huge 
+    for i, v in ipairs(Players.GetPlayers(Players)) do
+         if v == localPlayer or not v.Character then continue end 
+         local character = v.Character 
+         if character.FindFirstChild(character, "Head") then
+            local head = character.Head 
+            local headPos, onScreen = wtvp(camera, head.Position)
+            
+            if onScreen then 
+                local mouseDist = (Vector2.new(mouse.X, mouse.Y) - Vector2.new(headPos.X, headPos.Y)).Magnitude
+                if mouseDist < distance then 
+                    distance = mouseDist 
+                    target = head
+                end 
+            end 
+        end 
+    end
+    return target 
+end 
+local old; old = hookmetamethod(game, "__namecall", function(...)
+    local method = getnamecallmethod()
+    local args = {...}
+    local callingScript = getcallingscript()
+    if (method == "Raycast") and (tostring(callingScript) == "Equipment" or tostring(callingScript) == "FighterController" or tostring(callingScript) == "PlayerDataController" or tostring(callingScript) == "ControlsController") then 
+        args[2] = camera.CFrame.Position
+        args[3] = (getClosestPlayerHead().Position - args[2]).Unit * 1000
+    end
+    return old(unpack(args))
+end)
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Admin Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Fates Admin",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+  	end    
+})
+Tab:AddButton({
+	Name = "Nameless Admin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Inf yield",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Ninja Legends",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Ninja Legends Script",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Zepsyy2/asd/main/Ninja%20Legends.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Proxima Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "horizon.cc",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Shadetamic/horizon/main/loadstring.lua"))()
+  	end    
+})
