@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Motionless Hub Beta v1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Motionless Hub Beta v1.1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({
 	Name = "Scripts",
 	Icon = "rbxassetid://4483345998",
@@ -158,3 +158,62 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Shadetamic/horizon/main/loadstring.lua"))()
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "prison Life",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Tiger Admin",
+	Callback = function()
+      		--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "BlackKing x bobhub",
+	Callback = function()
+      		--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
+  	end    
+})
+Tab:AddLabel("BlackKing Is The Only Good Script")
+local Tab = Window:MakeTab({
+	Name = "War Tycoon",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "auth hub",
+	Callback = function()
+      		loadstring(Game:HttpGet("https://raw.githubusercontent.com/unauth0rised/Roblox-Scripts/main/Auth%20Hub.lua"))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Leg hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/G6Ubkkuv"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "QuotasHub Simple",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Insertl/QuotasHub/main/BETAv1.3"))()
+  	end    
+})
+Tab:AddLabel("When You Execute leg hub motionless hub is gonna disappear")
+OrionLib:Init()
