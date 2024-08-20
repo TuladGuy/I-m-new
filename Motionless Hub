@@ -216,4 +216,169 @@ Tab:AddButton({
   	end    
 })
 Tab:AddLabel("When You Execute leg hub motionless hub is gonna disappear")
+local Tab = Window:MakeTab({
+	Name = "Bedwars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Voidware X Vape V4",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "VapeV4",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "HazelWare",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hazel-roblox/Hazel-Ware/main/Loader.lua", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Liquid Bounce",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Springs67/LeaksNStuff/3kdIKfmsdSf/LiquidBounce.lua", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "AlSploit",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AlSploit/AlSploit/main/AlSploit/Bedwars/Loader.lua",true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "RavenB4",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Near-B4/Raven-B4-For-Roblox/main/Raven%20B4%20Loader"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Skid Ware",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/sstvskids/SkidVapeForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Icecatv3",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Baconontop/BedwarsV3/main/icecatBedwars.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "icecat v2",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://github.com/Baconontop/bedwarsV2/raw/main/IcecatBedwars'),true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Flame X V2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamingDrey/Flame-X-v2/main/Flame%20X%20Bedwars%20V2"))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Slap Battles",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Reaper-Hub",
+	Callback = function()
+      		loadstring((http.request{Url="https://reaperscripts.com/loader?l=1"}).Body,"0zek8y2bld7.qowl6c7o~1")();
+  	end    
+})
+Tab:AddButton({
+	Name = "SB Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "SB Hub That exists ",
+	Callback = function()
+      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
+  	end    
+})
+Tab:AddButton({
+	Name = "1fOyt",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/anakinn"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "DestroyerX",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aquoupi/DestroyerX/main/DestroyerX"))()
+  	end    
+})
+Tab:AddLabel("Reaper-Hub Only For pc")
+local Tab = Window:MakeTab({
+	Name = "Pet sim 99",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "LenutHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/lenutjr/lenut/main/scripts"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "AhmadV99",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Script-Games/main/PS99.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "RedzHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "ZapHub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Murderer and sheriff Duels",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Tbaohub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurdervssheriff"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "rubyHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/murdersvssherrifsduels/main/rubyhub", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "MVSH hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/qBQE4hN0"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "PitbullHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/SoyAdriYT/PitbullHub/main/Scripting", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Nigg hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://shz.al/~wetvwat"))()
+  	end    
+})
 OrionLib:Init()
