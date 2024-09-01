@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Motionless Hub Beta v1.4", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "LunarX Hub v2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
-	Name = "Motionless Hub Loaded..",
+	Name = "LunarX Hub Loaded..",
 	Content = "Enjoy",
 	Image = "rbxassetid://4483345998",
 	Time = 5
@@ -709,4 +709,96 @@ noclip() -- to toggle noclip() and clip()
   	end    
 })
 Tab:AddLabel("Dont use JumpPower it doesn't work somehow but it does work perfectly")
+local Tab = Window:MakeTab({
+	Name = "SCRIPTHUBV3 Op",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "SCRIPTHUBV3",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV3/main/SCRIPTHUBV3", true))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "pet sim 99",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Phantom hub (rng event)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxpoliticai/Phantom/main/PS99.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "lenut hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/lenutjr/lenut/main/scripts"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "speed x hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Script-Games/main/PS99.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "RedzHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "zap hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+  	end
+})
+local Tab = Window:MakeTab({
+	Name = "zombie attack",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Ghost hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://ghost-storage.7m.pl/scripts/ghosthublauncher.lua'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Voidz Hub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "tycoon rng",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Wing Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Vernyfx/LDR/main/LDR"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "rinns hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Jip Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/jjp2iky/scripts/main/TycoonRNG"))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddParagraph("Credits","Scripted by V0lure on discord")
 OrionLib:Init()
